@@ -32,19 +32,6 @@
     box-shadow: 0 0 10px white;
 }
 
-.nav-menu-item home{
-    display: flex;
-    flex-direction: column;
-}
-
-.nav-menu-item home::before{
-    content: "";
-    position: absolute;
-    top: 0;
-    right: 0;
-    /* background: url("background.png") no-repeat center center/cover; */
-}
-
 body{
     background-image: url("../asset/img/background.png");
     background-repeat: no-repeat;
