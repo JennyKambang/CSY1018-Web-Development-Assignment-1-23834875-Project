@@ -7,8 +7,8 @@
 .container{
     width: 100%;
     min-height: 100vh;
-    padding-left: 8%;
-    padding-right: 8%;
+    padding-left: 10%;
+    padding-right: 10%;
     box-sizing: border-box;
     overflow: hidden;
 }
@@ -36,7 +36,9 @@
 .nav-menu-item{
     display: flex;
     list-style: none;
-    margin: 20px 0px;
+    margin: 10px 0px;
+    padding: 0 20px;
+    border: 1px solid #fff;
 }
 
 .nav-menu-item a{
@@ -79,12 +81,12 @@ body{
 }
 
 .btn{
-padding: 10px 35px;
-background-color: transparent;
-border: 1px solid white;
-color: white;
-outline: none;
-transition: .6s ease;
+    padding: 10px 35px;
+    background-color: transparent;
+    border: 1px solid white;
+    color: white;
+    outline: none;
+    transition: .6s ease;
 }
 
 .btn:hover{
@@ -129,7 +131,8 @@ transition: .6s ease;
     text-align: center;
     font-size: 35px;
     text-transform: uppercase;
-    margin-bottom: 30px;
+    margin-bottom: 25px;
+    margin-top: 25px;
 }
 
 .contact-form .text-box{
