@@ -234,3 +234,33 @@ body{
     border-radius: 4px;
 }
 
+img{
+    max-width: 100%;
+    height: auto;
+}
+
+.box{
+   max-width: 85%;
+   margin: 20px auto; 
+}
+
+.box .subject{
+   font-size: 25px;
+   background-color: #000;
+   color: #fff;
+   border-radius: 5px;
+   margin-bottom: 10px;
+   text-align: center;
+   padding: 15px;
+}
+
+.box .image-box{
+    columns: 3 250px;
+    gap: 15px;
+}
+
+.box .image-box img{
+    margin-bottom: 10px;
+    border-radius: 5px;
+    width: 100%;
+}
