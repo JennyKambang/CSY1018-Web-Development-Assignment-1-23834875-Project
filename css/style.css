@@ -21,7 +21,8 @@
 .logo{
     width: 100px;
     cursor: pointer;
-    margin: 30px 0;
+    margin: 30px 0px;
+    display: flex;
 }
 
 .nav-menu{
@@ -421,6 +422,7 @@ main.row{
 .report{
     color: white;
     margin: 20px;
+    border: 1px solid white;
 }
 
 .report h1{
