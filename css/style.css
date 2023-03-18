@@ -419,17 +419,29 @@ main.row{
     }
 }
     
-.report{
+.exp{
     color: white;
     margin: 20px;
     border: 1px solid white;
+    border-width: 5px;
+    padding: 20px;
 }
 
-.report h1{
+.exp h1{
     margin: 19px;
+    font-family: sans-serif;
 }
 
-.report p{
+.exp p{
     padding: 10px;
     margin: 10px;
+}
+
+.looks{
+    color: white;
+    text-align: right;
+    margin: 20px;
+    border: 1px solid white;
+    border-width: 5px;
+    padding: 20px;
 }
