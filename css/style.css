@@ -6,7 +6,7 @@
 
 .container{
     width: 100%;
-    min-height: 100vh;
+    min-height: 0;
     padding-left: 10%;
     padding-right: 10%;
     box-sizing: border-box;
@@ -88,7 +88,7 @@ body{
     flex-direction: column;
     border: 1px solid ;
     align-items: center;
-    position: center;
+    position: sticky;
     top: 30%;
     right: 10%;
 }
@@ -99,28 +99,6 @@ body{
     text-align: center;
     margin: 50px 0px;
     color: white;
-}
-
-.btn{
-    padding: 10px 35px;
-    background-color: transparent;
-    border: 1px solid white;
-    color: white;
-    outline: none;
-    transition: .6s ease;
-}
-
-.btn a{
-    color: white;
-    text-decoration: none;
-}
-
-.btn:hover{
-    cursor: pointer;
-    background-color: white;
-    color: black;
-    box-shadow: 0 0 5px white, 0 0 10px white, 0 0 15px white;
-    font-weight: bold;
 }
 
 #about{
@@ -442,5 +420,14 @@ main.row{
     
 .report{
     color: white;
-    margin: 25px;
+    margin: 20px;
+}
+
+.report h1{
+    margin: 19px;
+}
+
+.report p{
+    padding: 10px;
+    margin: 10px;
 }
