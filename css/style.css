@@ -28,7 +28,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: black;
     position: sticky;
     top: 0;
 }
@@ -38,14 +38,14 @@
     list-style: none;
     margin: 10px 0px;
     padding: 0;
-    border: 1px solid #fff;
+    border: 1px solid white;
     margin: auto;
 }
 
 .nav-menu-item a{
     text-decoration: none;
     color: white;
-    padding: 8px 25px;
+    padding: 7px 25px;
     transition: all .5s ease;
 }
 
@@ -66,7 +66,7 @@ body{
 #home{
     display: flex;
     flex-direction: column;
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: black;
     height: 650px;
     justify-content: center;
     align-items: center;
@@ -98,7 +98,7 @@ body{
     font-size: 3rem;
     text-align: center;
     margin: 50px 0px;
-    color: #fff;
+    color: white;
 }
 
 .btn{
@@ -111,7 +111,7 @@ body{
 }
 
 .btn a{
-    color: #fff;
+    color: white;
     text-decoration: none;
 }
 
@@ -145,7 +145,7 @@ body{
     flex-direction: row;
     text-align: justify;
     padding: 10px;
-    color: #fff;
+    color: white;
 }
 
 #intro h2{
@@ -163,7 +163,7 @@ body{
 }
 
 .social i{
-    color: #fff;
+    color: white;
     font-size: 30px;
     padding: 0px 10px;
 }
@@ -172,6 +172,7 @@ body{
     .nav-menu{
         flex-wrap: wrap;
         justify-content: center;
+        
     }
 
     .headings{
@@ -184,7 +185,7 @@ body{
     }
 
     #pic img{
-        width: 400px;
+        width: 350px;
         height: 400px;
     }
 
@@ -202,7 +203,7 @@ body{
 }
 
 .contact-info{
-    color: #fff;
+    color: white;
     max-width: 500px;
     line-height: 65px;
     padding-left: 50px;
@@ -224,7 +225,7 @@ body{
 }
 
 .contact-form h2{
-    color: #fff;
+    color: white;
     text-align: center;
     font-size: 35px;
     text-transform: uppercase;
@@ -233,15 +234,15 @@ body{
 }
 
 .contact-form .text-box{
-    background: #fff;
-    color: #000;
+    background: white;
+    color: black;
     border: none;
     width: calc(50% - 10px);
     height: 50px;
     padding: 12px;
     font-size: 19px;
     border-radius: 5px;
-    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 1px 1px black;
     margin-bottom: 20px;
     opacity: 0.9;
 }
@@ -251,8 +252,8 @@ body{
 }
 
 .contact-form textarea{
-    background: #fff;
-    color: #000;
+    background: white;
+    color: black;
     border: none;
     width: 100%;
     padding: 12px;
@@ -261,7 +262,7 @@ body{
     max-height: 400px;
     resize: vertical;
     border-radius: 5px;
-    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 1px 1px black;
     margin-bottom: 20px;
     opacity: 0.9;
 }
@@ -269,7 +270,7 @@ body{
 .contact-form .send-btn{
     float: right;
     background: #D00E0E;
-    color: #fff;
+    color: white;
     border: none;
     width: 120px;
     height: 40px;
@@ -307,7 +308,7 @@ body{
 
 .success{
     z-index: 1;
-    background: #fff;
+    background: white;
     font-size: 18px;
     padding: 20px 40px;
     min-width: 420px;
@@ -320,7 +321,7 @@ body{
 
 .error{
     z-index: 1;
-    background: #fff;
+    background: white;
     font-size: 18px;
     padding: 20px 40px;
     min-width: 420px;
@@ -343,8 +344,8 @@ img{
 
 .box .subject{
    font-size: 25px;
-   background-color: #000;
-   color: #fff;
+   background-color: black;
+   color: white;
    border-radius: 5px;
    margin-bottom: 10px;
    text-align: center;
@@ -365,7 +366,7 @@ img{
 .case{
     width: 100%;
     padding: 35px 10%;
-    color: #fff;
+    color: white;
 }
 
 .case{
