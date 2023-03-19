@@ -501,3 +501,29 @@ main.row{
     margin: 11px;
 }
 
+.val{
+    max-width: 85%;
+    margin: 20px auto; 
+ }
+ 
+.val .photo{
+    columns: 3 250px;
+    gap: 15px;
+}
+
+.val .photo img{
+    margin-bottom: 10px;
+    border-radius: 5px;
+    width: 100%;
+}
+
+.val .picture{
+    columns: 3 250px;
+    gap: 15px;
+}
+
+.val .picture img{
+    margin-bottom: 10px;
+    border-radius: 5px;
+    width: 100%;
+}
