@@ -418,13 +418,16 @@ main.row{
         margin-top: 10px;
     }
 }
-    
+
 .exp{
     color: white;
     margin: 20px;
     border: 1px solid white;
     border-width: 5px;
     padding: 20px;
+    width: 700px;
+    text-align: left;
+    float: left;
 }
 
 .exp h1{
@@ -435,7 +438,7 @@ main.row{
 .exp p{
     padding: 10px;
     margin: 10px;
-    font-size: 23px;
+    font-size: 15px;
 }
 
 .looks{
@@ -444,14 +447,19 @@ main.row{
     margin: 20px;
     padding: 20px;
     display: flex;
-    width: 100%;
+    width: 600px;
+    height: 410px;
     border-width: 5px;
+    border: 1px solid white;
+    flex-direction: column;
+    border-width: 5px;
+    
 }
 
 .looks h1{
     margin: 19px;
     font-family: sans-serif;
-    align-self: center;
+    align-self: right;
 }
 
 .col1{
@@ -460,11 +468,11 @@ main.row{
 }
 
 .col1 h2{
-    margin: 19px;
+    margin: 11px;
 }
 
 .col1 p{
-    margin: 19px;
+    margin: 11px;
 }
 
 .col2{
@@ -473,12 +481,11 @@ main.row{
 }
 
 .col2 h2{
-    margin: 19px;
+    margin: 11px;
 }
 
 .col2 p{
-    padding: 10px;
-    margin: 10px;
+    margin: 11px;
 }
 
 .col3{
@@ -487,10 +494,10 @@ main.row{
 }
 
 .col3 h2{
-    margin: 19px;
+    margin: 11px;
 }
 
 .col3 p{
-    padding: 10px;
-    margin: 10px;
+    margin: 11px;
 }
+
