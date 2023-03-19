@@ -435,13 +435,62 @@ main.row{
 .exp p{
     padding: 10px;
     margin: 10px;
+    font-size: 23px;
 }
 
 .looks{
     color: white;
     text-align: right;
     margin: 20px;
-    border: 1px solid white;
-    border-width: 5px;
     padding: 20px;
+    display: flex;
+    width: 100%;
+    border-width: 5px;
+}
+
+.looks h1{
+    margin: 19px;
+    font-family: sans-serif;
+    align-self: center;
+}
+
+.col1{
+    float: left;
+    border: 1px solid white;
+}
+
+.col1 h2{
+    margin: 19px;
+}
+
+.col1 p{
+    margin: 19px;
+}
+
+.col2{
+    float: left;
+    border: 1px solid white;
+}
+
+.col2 h2{
+    margin: 19px;
+}
+
+.col2 p{
+    padding: 10px;
+    margin: 10px;
+}
+
+.col3{
+    float: left;
+    border: 1px solid white;
+}
+
+.col3 h2{
+    margin: 19px;
+}
+
+.col3 p{
+    padding: 10px;
+    margin: 10px;
 }
